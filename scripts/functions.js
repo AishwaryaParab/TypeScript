@@ -18,3 +18,18 @@ var loginUser = function (name, email, isPaid) {
     if (isPaid === void 0) { isPaid = false; }
 };
 loginUser("aish", "aish@a.com");
+// 5th example
+function addThree(num) {
+    return num + 3;
+}
+addTwo(6);
+// 6th example
+function getValue(val) {
+    if (val > 5) {
+        return true;
+    }
+    else {
+        return "200 OK";
+    }
+}
+console.log(getValue(7));
